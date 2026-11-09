@@ -58,15 +58,15 @@ export const projects = [
     period: "Projet de fin d'études — Licence 2",
     description:
       "Conception d'une application web pour les pêcheurs artisanaux de Madagascar : modélisation du système avec des diagrammes UML, interface dynamique développée avec React, serveur d'API robuste avec Node.js, intégrant le calcul d'itinéraires maritimes et le suivi des captures. Gestion de projet organisée via Trello.",
-    tech: ["React", "Node.js", "UML", "Trello", "API REST"],
+    tech: ["React", "Node.js", "UML", "Trello", "API REST", "Agile"],
   },
   {
     title: "TantsahaConnect",
     role: "Développeuse",
     period: "Projet académique",
     description:
-      "Développement d'une plateforme de valorisation des produits agricoles, participation à la conception technique et au développement de la solution.",
-    tech: ["Web", "Conception technique"],
+      "Développement d'une plateforme de valorisation des produits agricoles, participation à la conception technique et au développement de la solution. Interface front-end en React et serveur d'API en Node.js, avec gestion de projet en méthode Agile.",
+    tech: ["React", "Node.js", "Agile", "Conception technique"],
   },
   {
     title: "AVE — Organisation d'événements",
