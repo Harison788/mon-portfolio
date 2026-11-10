@@ -65,6 +65,7 @@ export const projects = [
     title: "TantsahaConnect",
     role: "Développeuse",
     period: "Projet académique",
+    image: "/tantsaha.png",
     description:
       "Développement d'une plateforme de valorisation des produits agricoles, participation à la conception technique et au développement de la solution. Interface front-end en React et serveur d'API en Node.js, avec gestion de projet en méthode Agile.",
     tech: ["React", "Node.js", "Agile", "Conception technique"],
