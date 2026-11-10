@@ -56,6 +56,7 @@ export const projects = [
     title: "SOPAC",
     role: "Développeur Full-Stack / Concepteur Logiciel",
     period: "Projet de fin d'études — Licence 2",
+    image: "/sopac.png",
     description:
       "Conception d'une application web pour les pêcheurs artisanaux de Madagascar : modélisation du système avec des diagrammes UML, interface dynamique développée avec React, serveur d'API robuste avec Node.js, intégrant le calcul d'itinéraires maritimes et le suivi des captures. Gestion de projet organisée via Trello.",
     tech: ["React", "Node.js", "UML", "Trello", "API REST", "Agile"],
