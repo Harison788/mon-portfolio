@@ -26,16 +26,20 @@ export const about = `Étudiante en L3 Services Informatiques aux Organisations,
 
 export const skills = [
   {
+    category: "Langages de programmation",
+    items: ["Python", "Java", "JavaScript", "PHP", "C"],
+  },
+  {
+    category: "Concepts",
+    items: ["Programmation orientée objet (POO) avancée"],
+  },
+  {
     category: "Développement Front-end",
     items: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
     category: "Développement Back-end",
-    items: ["Node.js", "Express", "Spring Boot", "Java EE", "Django", "Laravel", "PHP"],
-  },
-  {
-    category: "Langages",
-    items: ["Python", "Java", "JavaScript", "PHP", "C"],
+    items: ["Laravel", "Node.js", "Express", "Spring Boot", "Java EE", "Django"],
   },
   {
     category: "Bases de données",
@@ -46,8 +50,8 @@ export const skills = [
     items: ["Git", "GitHub", "Docker", "UML", "Merise", "Agile", "Android Studio", "VS Code", "Eclipse", "draw.io"],
   },
   {
-    category: "Design & Création",
-    items: ["Canva", "Figma", "CapCut"],
+    category: "Design & Montage",
+    items: ["Figma", "Canva", "CapCut"],
   },
 ];
 
@@ -60,6 +64,14 @@ export const projects = [
     description:
       "Conception d'une application web pour les pêcheurs artisanaux de Madagascar : modélisation du système avec des diagrammes UML, interface dynamique développée avec React, serveur d'API robuste avec Node.js, intégrant le calcul d'itinéraires maritimes et le suivi des captures. Gestion de projet organisée via Trello.",
     tech: ["React", "Node.js", "UML", "Trello", "API REST", "Agile"],
+  },
+  {
+    title: "Vanilla",
+    role: "Développeur Full-Stack",
+    period: "Projet individuel — cours Framework PHP",
+    description:
+      "Conception d'une plateforme web de gestion d'exploitation de vanille Bourbon avec Laravel et PHP orienté objet : traçabilité des lots, suivi de la transformation (affinage, échaudage) et contrôle qualité.",
+    tech: ["Laravel", "PHP", "POO", "Framework PHP"],
   },
   {
     title: "TantsahaConnect",
