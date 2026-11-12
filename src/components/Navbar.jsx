@@ -21,8 +21,8 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
       <div className="navbar__inner">
         <button className="navbar__brand" onClick={() => go("hero")}>
-          <span className="navbar__monogram">K</span>
-          <span className="navbar__name">{person.firstName} {person.lastName}</span>
+          <span className="navbar__monogram">A</span>
+          <span className="navbar__name">ANDRIAKOTOHARISON</span>
         </button>
 
         <nav className={`navbar__nav ${open ? "is-open" : ""}`}>
