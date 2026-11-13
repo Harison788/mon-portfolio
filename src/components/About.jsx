@@ -7,7 +7,7 @@ export default function About() {
         <div className="about__hero">
           <div className="about__hero-image">
             <div className="about__image-wrap">
-              <img src={`${import.meta.env.BASE_URL}banner.jpg`} alt="Illustration" className="about__inline-image" />
+              <img src={`${import.meta.env.BASE_URL}banner.jpg`} alt="Photo de Kanto Fitahiana" className="about__inline-image" />
             </div>
           </div>
           <div className="about__hero-text">

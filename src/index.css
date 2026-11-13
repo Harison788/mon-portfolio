@@ -406,6 +406,18 @@ img { max-width: 100%; display: block; }
   border-radius: 4px; background: var(--primary); color: #fff;
   font-size: 0.7rem; font-weight: 700;
 }
+.footer__socials {
+  display: flex; gap: 0.6rem; justify-content: center; margin-bottom: 0.8rem;
+}
+.footer__social {
+  display: grid; place-items: center; width: 36px; height: 36px;
+  border-radius: 50%; background: var(--surface-2); border: 1px solid var(--border);
+  color: var(--text-muted); font-size: 0.85rem; font-weight: 700;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.footer__social:hover {
+  border-color: var(--primary); color: var(--primary); background: var(--primary-glow);
+}
 .footer { margin-top: auto; padding: 2rem 1.5rem; border-top: 1px solid var(--border); background: var(--bg-2); }
 .footer__inner { text-align: center; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 0.3rem; }
 .footer__muted { color: var(--text-soft); font-size: 0.8rem; }
